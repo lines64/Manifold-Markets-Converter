@@ -1,2 +1,2 @@
-# Manifold-Markets-Converter
+# Manifold-Markets-Converter [![](https://img.shields.io/chrome-web-store/v/hkccfpgeafncnjbahmjbkbmclamegmmd?logo=google-chrome)]([https://chrome.google.com/webstore/detail/manifans/hkccfpgeafncnjbahmjbkbmclamegmmd?hl=en](https://chromewebstore.google.com/detail/manifold-markets-converte/iknnonldghojokfkkecbkkagfjlhkdil))
 Convert percentages into decimal, US, fractional, Hong Kong, Indonesian or Malaysian odds on Manifold Markets.
