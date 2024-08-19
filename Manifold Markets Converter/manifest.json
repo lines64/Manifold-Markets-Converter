@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Manifold Markets Converter",
+    "version": "1.0",
+    "description": "Convert percentages into decimal, US, fractional, Hong Kong, Indonesian or Malaysian odds on Manifold Markets.",
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://manifold.markets/*"],
+        "js": ["contentScript.js"]
+      }
+    ]
+  }  
