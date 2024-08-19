@@ -1,10 +1,10 @@
-# Manifold-Markets-Converter [![](https://img.shields.io/chrome-web-store/v/iknnonldghojokfkkecbkkagfjlhkdil?logo=google-chrome)](https://chrome.google.com/webstore/detail/manifold-markets-converte/iknnonldghojokfkkecbkkagfjlhkdil?hl=en)
+# Manifold Markets Converter [![](https://img.shields.io/chrome-web-store/v/iknnonldghojokfkkecbkkagfjlhkdil?logo=google-chrome)](https://chrome.google.com/webstore/detail/manifold-markets-converte/iknnonldghojokfkkecbkkagfjlhkdil?hl=en)
 
 
 
 <img align="left" src="Manifold Markets Converter/icon128.png" height="65px">
 
-A simple open-source browser extension to change the % into odds on Manifold.markets. Convert percentages into decimal, US, fractional, Hong Kong, Indonesian or Malaysian odds. Developed with the purpose of making it easier to spot arbitrage opportunities on "multiple choice" markets.
+A simple open-source browser extension to change the % into odds on [Manifold.markets](https://manifold.markets?referrer=prezlus). Convert percentages into decimal, US, fractional, Hong Kong, Indonesian or Malaysian odds.Developed with the purpose of making it easier to spot arbitrage opportunities on "multiple choice" markets.
 
 ## Screenshots
 
@@ -15,7 +15,7 @@ A simple open-source browser extension to change the % into odds on Manifold.mar
 
 ## Run locally for testing
 
-To load the extension locally (Cromium-based browser only):
+To load the extension locally _(Cromium-based browsers only)_:
 
  1. Download this repository.
  2. Go to `about:extensions`, `Developer Mode`, `Load Unpacked`, and navigate into the directory with `manifest.json`.
