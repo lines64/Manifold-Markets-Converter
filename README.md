@@ -4,7 +4,7 @@
 
 <img align="left" src="Manifold Markets Converter/icon128.png" height="65px">
 
-A simple open-source browser extension to change the % into odds on [Manifold.markets](https://manifold.markets?referrer=prezlus). Convert percentages into decimal, US, fractional, Hong Kong, Indonesian or Malaysian odds.Developed with the purpose of making it easier to spot arbitrage opportunities on "multiple choice" markets.
+A simple open-source browser extension to change the % into odds on [Manifold.markets](https://manifold.markets?referrer=prezlus). Convert percentages into decimal, US, fractional, Hong Kong, Indonesian or Malaysian odds. Developed with the purpose of making it easier to spot arbitrage opportunities on "multiple choice" markets.
 
 ## Screenshots
 
