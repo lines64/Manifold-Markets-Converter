@@ -15,7 +15,7 @@ A simple open-source browser extension to change the % into odds on [Manifold.ma
 
 ## Run locally for testing
 
-To load the extension locally _(Cromium-based browsers only)_:
+To load the extension locally _(Chromium-based browsers only)_:
 
  1. Download this repository.
  2. Go to `about:extensions`, `Developer Mode`, `Load Unpacked`, and navigate into the directory with `manifest.json`.
