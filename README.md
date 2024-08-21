@@ -10,7 +10,7 @@ A simple open-source browser extension to change the % into odds on [Manifold.ma
 
 ![App Screenshot](https://github.com/lines64/Manifold-Markets-Converter/blob/main/Screenshots/Manifold%20Markets.png)
 
-![App Screenshot](https://github.com/lines64/Manifold-Markets-Converter/blob/main/Screenshots/Manifold%20Markets%20Extension%20Settings%20(2).png)
+![App Screenshot](https://github.com/lines64/Manifold-Markets-Converter/blob/main/Screenshots/Manifold%20Markets%20Extension%20Settings.png)
 
 
 ## Run locally for testing
