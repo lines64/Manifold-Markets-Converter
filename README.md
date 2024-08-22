@@ -6,7 +6,9 @@
 
 A simple open-source browser extension to change the % into odds on [Manifold.markets](https://manifold.markets?referrer=prezlus). Convert percentages into decimal, US, fractional, Hong Kong, Indonesian or Malaysian odds. Developed with the purpose of making it easier to spot arbitrage opportunities on "multiple choice" markets.
 
-Still in early beta. You need a free Manifold.markets API to make this work _(you can find the API key in your profile, under account settings)_. Currently works on multiple choice markets with more than two answers _(answers must be dependent)_. It is perfect if you want to try and find arbitrage opportunities or value bets in 1x2 or outright markets.
+Still in early beta. You need a free Manifold.markets API to make this work _(you can find the API key in your profile, under account settings)_. Currently works only on **multiple choice markets with more than two answers** _(answers must be dependent)_. It is perfect if you want to try and find arbitrage opportunities or value bets in 1x2 or outright markets.
+
+When you visit the page with a supported market type, the extension orders the answers by Oldest, waits for one second, simulates 50 mana bets on every answer _(one after another, to avoid API limitations)_. After the calculations are done, you can again order the market by any type you want, but if the % change, you will have to refresh the page again.
 
 ## Screenshots
 
