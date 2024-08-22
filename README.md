@@ -8,7 +8,7 @@ A simple open-source browser extension to change the % into odds on [Manifold.ma
 
 Still in early beta. You need a free Manifold.markets API to make this work _(you can find the API key in your profile, under account settings)_. Currently works only on **multiple choice markets with more than two answers** _(answers must be dependent)_. It is perfect if you want to try and find arbitrage opportunities or value bets in 1x2 or outright markets.
 
-When you visit the page with a supported market type, the extension orders the answers by Oldest, waits for one second, simulates 50 mana bets on every answer _(one after another, to avoid API limitations)_. After the calculations are done, you can again order the market by any type you want, but if the % change, you will have to refresh the page again.
+When you visit the page with a supported market type, the extension orders the answers by Oldest, waits for one second, simulates 50 mana _(configurable in the settings)_ bets on every answer _(one after another, to avoid API limitations)_. After the calculations are done, you can again order the market by any type you want, but if the % change, you will have to refresh the page again.
 
 ## Screenshots
 
@@ -30,6 +30,7 @@ Once installed, click on the extension icon in your browser to see settings.
     - Make it work on other types of markets (YES/NO, Multiple Choice - Independent, markets with two answers)
     - Speed up the odds calculation
     - Add odds calculation for betting against the selection (NO option, currently only calculates for YES option)
+    - Add another option where user can change the default stake based on the size of the market
 
 ## Feedback
 
