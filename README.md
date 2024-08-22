@@ -23,8 +23,9 @@ Since the Google Chrome Web Store prohibits the gambling-focused extensions, you
 To load the extension locally _(Chromium-based browsers only)_:
 
  1. Download this repository.
- 2. (Optional) Move the Manifold Markets Converter folder, ideally somewhere it won't be in the way, like a dedicated folder for your betting projects.
- 3. Go to `about:extensions`, `Developer Mode`, `Load Unpacked`, and navigate into the directory with `manifest.json`.
+ 2. Extract the Manifold Markets Converter folder
+ 3. (Optional) Move the Manifold Markets Converter folder, ideally somewhere it won't be in the way, like a dedicated folder for your betting stuff/projects.
+ 4. Go to `about:extensions`, `Developer Mode`, `Load Unpacked`, and navigate into the Manifold Markets Converter folder with `manifest.json`.
 
 Once installed, click on the extension icon in your browser to see settings.
 
