@@ -28,3 +28,7 @@ Once installed, click on the extension icon in your browser to see settings.
     - Make it work on other types of markets (YES/NO, Multiple Choice - Independent, markets with two answers)
     - Speed up the odds calculation
     - Add odds calculation for betting against the selection (NO option, currently only calculates for YES option)
+
+## Feedback
+
+If you have any feedback, please reach out to me at info@lines64.com. Contributions are always welcome!
