@@ -31,6 +31,7 @@ Once installed, click on the extension icon in your browser to see settings.
     - Speed up the odds calculation
     - Add odds calculation for betting against the selection (NO option, currently only calculates for YES option)
     - Add another option where user can change the default stake based on the size of the market
+    - Make it work on Firefox
 
 ## Feedback
 
