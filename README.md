@@ -1,5 +1,4 @@
-# Manifold Markets Converter [![](https://img.shields.io/chrome-web-store/v/iknnonldghojokfkkecbkkagfjlhkdil?logo=google-chrome)](https://chrome.google.com/webstore/detail/manifold-markets-converte/iknnonldghojokfkkecbkkagfjlhkdil?hl=en)
-
+# Manifold Markets Converter
 
 
 <img align="left" src="Manifold Markets Converter/icon128.png" height="65px">
