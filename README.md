@@ -13,7 +13,7 @@ When you visit the page with a supported market type, the extension orders the a
 
 ![App Screenshot](https://github.com/lines64/Manifold-Markets-Converter/blob/main/Screenshots/Manifold%20Markets.png)
 
-![App Screenshot](https://github.com/lines64/Manifold-Markets-Converter/blob/main/Screenshots/Manifold%20Markets%20Extension%20Settings.png)
+![App Screenshot](https://github.com/lines64/Manifold-Markets-Converter/blob/main/Screenshots/Manifold%20Markets%20Extension%20Settings%20New.png)
 
 
 ## Installation
