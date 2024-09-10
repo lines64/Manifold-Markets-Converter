@@ -29,6 +29,9 @@ To load the extension locally _(Chromium-based browsers only)_:
 
 Once installed, click on the extension icon in your browser to see settings.
 
+### Changelog
+    - (10.9.2024) Added an option to convert Mana to USD (only information about what your Mana is worth in USD, not an actual conversion, works only on desktop)
+
 ### TODO
     - Make it work on other types of markets (YES/NO, Multiple Choice - Independent, markets with two answers)
     - Speed up the odds calculation
