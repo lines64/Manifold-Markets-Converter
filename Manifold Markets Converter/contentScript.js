@@ -27,6 +27,34 @@ function waitForElement(selector, timeout = 5000) {
     });
 }
 
+function convertManaToUSD(mana) {
+    return (mana / 1000).toFixed(2); // Convert to USD and round to 2 decimals
+}
+
+function updateManaDisplays() {
+    chrome.storage.sync.get('USDconversionEnabled', function (data) {
+        if (data.USDconversionEnabled === false) {
+            return; // Conversion is disabled, exit the function
+        }
+
+        // Select all divs containing the mana icon and value
+        const manaElements = document.querySelectorAll('.coin-offset.items-center'); // Use the class from your image
+
+        manaElements.forEach((element) => {
+            let manaDiv = element.querySelector('div');
+            if (manaDiv && !manaDiv.textContent.includes("($")) {
+                let manaText = manaDiv.textContent.replace(/[^0-9.]/g, '');
+                let manaAmount = parseFloat(manaText);
+
+                if (!isNaN(manaAmount)) {
+                    let usdAmount = convertManaToUSD(manaAmount);
+                    manaDiv.textContent += ` ($${usdAmount})`;
+                }
+            }
+        });
+    });
+}
+
 async function ensureOldestOrder() {
     if (!isMarketPage()) {
         console.log("Not a market page. Skipping dropdown interaction.");
@@ -410,3 +438,8 @@ function observeMarketChanges() {
 // Start observing market changes
 observeMarketChanges();
 updateOdds(); // Run the initial odds conversion
+
+updateManaDisplays();
+
+const observer = new MutationObserver(updateManaDisplays);
+observer.observe(document.body, { childList: true, subtree: true });
