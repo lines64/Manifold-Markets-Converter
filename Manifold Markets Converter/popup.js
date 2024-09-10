@@ -5,10 +5,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const refreshButton = document.getElementById('refreshPage');
     const darkModeToggle = document.getElementById('darkModeToggle');
     const apiKeyInput = document.getElementById('apiKey');
+    const toggleCheckbox = document.getElementById('toggle-conversion');
 
-    chrome.storage.sync.get(['conversionEnabled', 'stakeAmount', 'conversionType', 'showBoth', 'darkMode', 'apiKey'], function(data) {
+    chrome.storage.sync.get(['conversionEnabled', 'stakeAmount', 'conversionType', 'showBoth', 'USDconvesionEnabled', 'darkMode', 'apiKey'], function(data) {
         checkbox.checked = !!data.conversionEnabled;
         stakeInput.value = data.stakeAmount || 50;
+        toggleCheckbox.checked = data.USDconversionEnabled !== false;
         conversionTypeSelect.value = data.conversionType || 'decimal';
         apiKeyInput.value = data.apiKey || '';
 
@@ -30,6 +32,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     conversionTypeSelect.addEventListener('change', function() {
         chrome.storage.sync.set({ conversionType: conversionTypeSelect.value });
+    });
+
+    toggleCheckbox.addEventListener('change', function () {
+        const isEnabled = toggleCheckbox.checked;
+        chrome.storage.sync.set({ USDconversionEnabled: isEnabled });
     });
 
     apiKeyInput.addEventListener('input', function() {
