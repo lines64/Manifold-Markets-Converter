@@ -2,7 +2,7 @@
 
 ---
 
-#### With the recent changes, which makes Mana pretty much worthless, I see no reason to continue updating this browser extension. It is still a great website, and I am very exticed to see in which direction the project goes.
+#### With the recent changes, which makes Mana pretty much worthless, I see no reason to continue updating this browser extension. It is still a great website, and I am very excited to see in which direction the project goes.
 
 ---
 
