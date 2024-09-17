@@ -4,6 +4,8 @@
 
 #### With the recent changes, which makes Mana pretty much worthless, I see no reason to continue updating this browser extension. It is still a great website, and I am very excited to see in which direction the project goes.
 
+As of right now, the extension still works.
+
 ---
 
 <img align="left" src="Manifold Markets Converter/icon128.png" height="65px">
