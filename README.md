@@ -1,5 +1,7 @@
 # Manifold Markets Converter
 
+With the recent changes, which makes Mana pretty much worthless, I see no reason to continue updating this browser extension. It is still a great website.
+
 
 <img align="left" src="Manifold Markets Converter/icon128.png" height="65px">
 
